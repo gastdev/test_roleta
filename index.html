@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Roleta de descontos</title>
+	<!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="roleta.js"></script>
+    
+</head>
+
+<body>
+
+	<div class="container">
+
+		<h1 style="margin-top: 15px; color: blue;">Roleta de descontos</h1>
+
+		<div style="margin-top: 30px">
+			<div>Cliqui na imagem para ganhar um <strong>desconto!!!</strong></div><br>
+			<img src="images.jpg" style="width: 400px; height: 350px" id="img"  alt="Roleta" onclick="rodar()" >
+		</div>
+
+		<div style="margin-top: 30px">
+			<h3>DEMONSTRAÇÃO</h3>
+
+			<div>
+				<span id="compra">Compra: R$500</span><br>
+				<span>
+					Desconto acertado:R$
+					<span id="descontov">0,00</span>
+					/
+					<span id="descontop">0%</span>
+				</span><br>
+				<span>A pagar: R$
+                    <span id="pagar">500</span>
+				</span>
+			</div>
+		</div>
+
+		
+	</div>
+
+</body>
+</html>
